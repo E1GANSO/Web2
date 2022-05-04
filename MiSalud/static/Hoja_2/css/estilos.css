@@ -1,0 +1,494 @@
+body{
+    background-color: #c3cdd7;
+    padding: 0;
+    height: 100%;
+    margin: 5%;
+}
+
+.hoja{
+    width: 1000px;
+    height: 1400px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 20px 40px 35px rgb(173, 173, 173);
+    
+}
+
+.profesion{
+
+ font-size: 13px;
+ position: relative;
+ bottom: 30%;
+ left: -34%;
+
+}
+.nombre{
+    position: relative;
+    bottom: 5%;
+    left: -34%;
+}
+
+.hoja .item{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 100px;
+    float: left;
+}
+.hoja .item .imagen{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border:2px solid #00959C;
+    padding: 10px;
+     
+}
+
+
+
+.hoja .item1{
+    background: #E7F3F3;
+    width: 600px;
+    height: 150px;
+    float: right;
+    margin-top: 125px;
+    
+}
+.hoja .item1 .datos{
+    width: 300px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+
+
+.hoja .item2{
+    width: 900px;
+    height: 150px;
+    float: left;
+    border-bottom:2px solid #00959C;
+    margin-left: 60px;
+    margin-right: 40px;
+
+}
+
+.hoja .item2 .contac{
+    width: 300px;
+    height: 150px;
+    margin-left: 40px;
+    float: left;
+    
+    
+    
+}
+
+.hoja .item2 .contac .phone{
+    width: 20px;
+    height: 30px;
+    margin-left: 4px;
+}
+
+.hoja .item2 .contac .phone1{
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+}
+.hoja .item2 .contac .phone .numero{
+    width: 220px;
+    height: 40px;
+    margin-left: 60px;
+    border-right:2px solid #00959C;
+    
+}
+
+.hoja .item2 .contac .email{
+    width: 30px;
+    height: 20px;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+.hoja .item2 .contac .email1{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.hoja .item2 .contac .email .info{
+    width: 220px;
+    height: 35px;
+    margin-left: 60px;
+    border-right:2px solid #00959C;
+    
+}
+
+.hoja .item2 .perfil{
+    margin-left: 300px;
+    margin-right: 95px;
+    position: relative;
+    bottom: -2px;px;
+    left: 8px;
+}
+.parrafo{
+    position: relative;
+    top:0%;
+    right:-8%;
+}
+
+.per{
+    position: relative;
+    bottom: 20%;
+    left: 8%;
+}
+
+.hoja .item3 .redes{
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+    float: left;
+    border-bottom:2px solid #00959C;
+}
+
+.hoja .item3 .redes .face{
+    width: 20px;
+    height: 30px;
+    margin-left: 4px;
+}
+
+.hoja .item3 .redes .face1{
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+}
+
+.hoja .item3 .redes .face .face2{
+    width: 220px;
+    height: 40px;
+    margin-left: 60px;
+    
+}
+
+.hoja .item3 .redes .twitter{
+    width: 25px;
+    height: 25px;
+    margin-left: 4px;
+    margin-top: 20px;
+}
+
+.hoja .item3 .redes .twitter1{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.hoja .item3 .redes .twit{
+    width: 220px;
+    height: 35px;
+    margin-left: 60px;
+    
+}
+
+.hoja .item3 .redes .instagram{
+    width: 25px;
+    height: 25px;
+    margin-left: 4px;
+    margin-top: 20px;
+    
+}
+
+.hoja .item3 .redes .instagram1{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.hoja .item3 .redes .insta{
+    width: 220px;
+    height: 35px;
+    margin-left: 60px;
+    
+}
+
+.hoja .item4 .experiencia{
+    width: 600px;
+    height: 400px;
+    margin-left:0px;
+    float: left;
+    border-bottom:2px solid #00959C
+}
+
+#expe{
+    position: relative;
+    bottom:1px;
+    left: 8%;
+}
+
+#parrafo2{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#parrafo3{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#parrafo4{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#parrafo5{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#parrafo6{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#parrafo7{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.hoja .item5 .idiomas{
+    width: 300px;
+    height: 260px;
+    margin-left: 60px;
+    float: left;
+    
+    
+}
+.idio{
+    position: relative;
+    bottom: 0;
+    left: 40px;
+    
+}
+.i1{
+    position: relative;
+    bottom: 0%;
+    left: 40px;
+}
+
+.item5{
+    position: relative;
+    bottom: 14%;
+    left: 0%;
+}
+
+.i2{
+    font-size: small;
+    position: relative;
+    bottom: 6%;
+    left:40px;
+    color: #169FB2;
+}
+
+.i3{
+    position: relative;
+    bottom: 6%;
+    left: 40px;
+}
+
+.i4{
+    font-size: small;
+    position: relative;
+    bottom: 12%;
+    left: 40px;
+    color: #169FB2;
+}
+
+.i5{
+    position: relative;
+    bottom: 12%;
+    left: 40px;
+}
+
+.i6{
+    font-size: small;
+    position: relative;
+    bottom: 18%;
+    left: 40px;
+    color: #169FB2;
+}
+
+.i7{
+    position: relative;
+    bottom: 18%;
+    left: 40px;
+}
+
+.i8{
+    font-size: small;
+    position: relative;
+    bottom: 24%;
+    left: 40px;
+    color: #169FB2;
+}
+
+.hoja .item6 .habilidades{
+    width: 300px;
+    height: 290px;
+    margin-left: 98px;
+    float: left;
+    border-top:2px solid #00959C
+    
+}
+
+.item6{
+    position: relative;
+    bottom: -8%;
+    left: -36%;
+}
+#habilidad{
+     position: relative;
+     bottom:-12px;
+     left: 1px;
+}
+
+.barra{
+    width: 250px;
+    height: 10px;
+    background: #169FB2;
+    position: relative;
+    bottom: 51%;
+    left: 1px;
+}
+
+.barra1{
+    width: 200px;
+    height: 10px;
+    background: #169FB2;
+    position: relative;
+    bottom: 41%;
+    left: 1px;
+}
+
+.barra2{
+    width: 200px;
+    height: 10px;
+    background: #169FB2;
+    position: relative;
+    bottom: 31%;
+    left: 1px;
+}
+
+.barra3{
+    width: 210px;
+    height: 10px;
+    background: #169FB2;
+    position: relative;
+    bottom: 21%;
+    left: 1px;
+}
+
+.barra4{
+    width: 220px;
+    height: 10px;
+    background: #169FB2;
+    position: relative;
+    bottom: 11%;
+    left: 1px;
+}
+
+.ph1{
+    position: relative;
+    bottom: -2%;
+    left: 1px;
+}
+
+.ph2{
+    position: relative;
+    bottom: -4%;
+    left: 1px;  
+}
+
+.ph3{
+    position: relative;
+    bottom: -6%;
+    left: 1px;  
+}
+
+.ph4{
+    position: relative;
+    bottom: -8%;
+    left: 1px;  
+}
+
+.ph0{
+    position: relative;
+    bottom: -2%;
+    left: 1px;  
+}
+
+.hoja .item7 .academica{
+    width: 600px;
+    height: 336px;
+    margin-left: 100px;
+    float: left;
+    
+}
+
+.item7{
+    position: relative;
+    bottom: 21%;
+    left: 30%;
+}
+
+.infoaca{
+    position: relative;
+    bottom: 0%;
+    left: 8%;
+}
+
+#borde{
+    width: 45%;
+    height: 30px;
+    background: #169FB2;
+}
+
+#borde1{
+    width: 75%;
+    height: 30px;
+    background: #169FB2;
+    position: relative;
+    bottom: -1340px;
+    left: 0%;
+}
+
+#borde2{
+    width: 30px;
+    height: 50%;
+    background: #169FB2;
+    position: relative;
+    bottom: 60px;
+    left: 97%;
+}
+
+.h5{
+    position: relative;
+    bottom: 25px;
+    left: 48px;
+    color: #169FB2;
+}
+
+.h4{
+    position: relative;
+    bottom: 1px;
+    left: 48px;
+}
+
+
+
+    
+
+
+

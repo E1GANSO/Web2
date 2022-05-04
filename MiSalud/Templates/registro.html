@@ -1,0 +1,57 @@
+
+<!-- HEREDANDO DE LA PLANTILLA PADRE -->
+{% extends "index.html" %}
+
+<!-- EDITANDO EL TITULO-->
+{% block title %} Registro {% endblock %}
+
+{% load static %}
+
+<!-- EDITANDO EL CONTENIDO-->
+{% block content %}
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="{% static 'formoid_files/formoid1/formoid-metro-cyan.css' %}" type="text/css" />
+<script type="text/javascript" src="{% static 'formoid_files/formoid1/jquery.min.js' %}"></script>
+<form class="formoid-metro-cyan" method="post" style="background-color:#FFFFFF;font-size:14px;font-family:'Open Sans','Helvetica Neue','Helvetica',Arial,Verdana,sans-serif;color:#666666;max-width:720px;min-width:150px" ><div class="title"><h2>Registro</h2></div>
+
+	{% csrf_token %}
+
+	{% if messages %}
+		{% for elem in messages %}
+			<div class="alert alert-danger" role="alert">
+				{{ elem }}
+			</div>
+		{% endfor %}
+	{% endif %}
+
+	<div class="element-input"><label class="title">Nombre<span class="required">*</span></label><input class="large" type="text" name="username" required="required"/></div>
+	<div class="element-input"><label class="title">Apellido<span class="required">*</span></label><input class="large" type="text" name="Apellido" required="required"/></div>
+	<div class="element-email"><label class="title">Email<span class="required">*</span></label><input class="large" type="email" name="email" value="" required="required"/></div>
+	<div class="element-select"><label class="title">Select<span class="required">*</span></label><div class="large"><span><select name="select" required="required">
+
+		<option value="0">---Seleccionar---</option>
+		<option value="6">Independiente</option>
+		<option value="9">Colegio Divino Jesús</option>
+		<option value="8">Colegio Bilingüe de Santa Marta</option>	
+		<option value="7">Liceo Caribe - Santa Marta</option>
+		<option value="5">Colegio Divino Niño</option>
+
+	</select><i></i></span></div>
+	</div>
+
+	<div class="element-phone"><label class="title">Telefono</label><input class="large" type="tel" pattern="[+]?[\.\s\-\(\)\*\#0-9]{3,}" maxlength="24" name="phone"  value=""/></div>
+	<div class="element-radio"><label class="title">Ocupación<span class="required">*</span></label>		<div class="column column2"><label><input type="radio" name="radio" value="Docente" required="required"/><span>Docente</span></label></div><span class="clearfix"></span>
+		<div class="column column2"><label><input type="radio" name="radio" value="Estudiante" required="required"/><span>Estudiante</span></label></div><span class="clearfix"></span>
+</div>
+	<div class="element-radio"><label class="title">Sexo<span class="required">*</span></label>		<div class="column column2"><label><input type="radio" name="radio1" value="Hombre" required="required"/><span>Hombre</span></label></div><span class="clearfix"></span>
+		<div class="column column2"><label><input type="radio" name="radio1" value="Mujer" required="required"/><span>Mujer</span></label></div><span class="clearfix"></span>
+</div>
+	<div class="element-password"><label class="title">Password<span class="required">*</span></label><input class="large" type="password" name="password" value="" minlength="8" required="required"/></div>
+	<div class="element-password"><label class="title">confirmar Password<span class="required">*</span></label><input class="large" type="password" name="password1" value="" minlength="8" required="required"/></div>
+<div class="submit" style="text-align: center;" ><input type="submit" value="Registrarme"/></div></form><p class="frmd"><a href="http://formoid.com/v29.php">php form</a> Formoid.com 2.9</p><script type="text/javascript" src="{% static 'formoid_files/formoid1/formoid-metro-cyan.js' %}"></script>
+<!-- Stop Formoid form-->
+
+	
+
+{% endblock %}

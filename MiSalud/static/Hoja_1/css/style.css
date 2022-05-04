@@ -1,0 +1,20 @@
+#sombras {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+#imagen_circular{
+    border-radius: 50%;
+    border: 2px solid rgb(0, 149, 156);
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#Fondo_Inicial{
+    background-color: rgb(231, 243, 243);
+}
+
+#Fondo_Texto{
+	color: #1891a4;
+}

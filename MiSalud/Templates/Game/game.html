@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - virus dead</title>
+    <link rel="shortcut icon" href="{% static 'Game/img/icon.png' %}">
+    <link rel="stylesheet" href="{% static 'Game/css/styles.css' %}">
+    <script type="text/javascript" src="{% static 'Game/app.js' %}"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <!--MOSTRANDO UN CUADRADO EN EL DOCUMENTO-->
+        <canvas id="my_canvas" width="700" height="600"></canvas>
+        <!--ENEMIGO ELIMINADO-->
+        <h3 class="enemy"></h3>
+
+        <div>
+            <!--ACCIONES-->
+            <button class="boton" id="bt_izq">Izquierda</button>
+            <button class="boton" id="bt_disparo">Disparo</button>
+            <button class="boton" id="bt_der">Derecha</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

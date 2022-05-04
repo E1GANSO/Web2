@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="{% static 'Hoja_2/css/estilos.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="hoja">
+       <div class="item">
+        <img src="{% static 'Hoja_2/img/luis.JPG' %}" alt="" class="imagen" id="imagen1">
+        <!--
+            <img src="img/luis.JPG" alt="" class="imagen" id="imagen1">
+        -->
+       </div>
+       <div class="item1">
+        <div class="datos">
+            <h2 class="nombre">LUIS ALVAREZ HIDALGO <br>
+            <h5 class="profesion"> DESARROLLADOR WEB</h5>
+        </div>
+        
+         </div>
+       <div class="item2">
+            <div class="contac">
+                <h3>CONTACTO</h3>
+                <div class="phone">
+                    <img src="{% static 'Hoja_2/img/celular.jpg' %}" alt="" class="phone1">
+                    <div class="numero">
+                        <p>Phone <br>+57 301-317-7515</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <img src="{% static 'Hoja_2/img/correo.jpg' %}" alt="" class="email1">
+                    <div class="info">
+                        <p>Email <br>luisalvarezch@gmail.com</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="perfil">
+                    <h3 class="per">PERFIL</h3>
+                    <p class="parrafo">Joven, serio, dinamico ,con ganas de labrarse un futuro. Buena presencia. Con experiencia en liderar equipos de trabajo, imaginación e iniciativa para desarrollar ideas nuevas y con facilidad para tomar decisiones .</p>
+                </div>
+            </div>
+       </div>
+       <div class="item3">
+        <div class="redes">
+            <h3>REDES SOCIALES</h3>
+            <div class="face">
+                <img src="{% static 'Hoja_2/img/facebook.jpg' %}" alt="" class="face1">
+                
+                <div class="face2">
+                    <p>Facebook <br>LuisAH29</p>
+                </div>
+            </div>
+            <div class="twitter">
+                <img src="{% static 'Hoja_2/img/twitter.jpg' %}" alt="" class="twitter1">
+                <div class="twit">
+                    <p>Twitter <br>@Luishalvarez</p>
+                   
+                </div>
+            </div>
+            <div class="instagram">
+                <img src="{% static 'Hoja_2/img/instagram.jpg' %}" alt="" class="instagram1">
+                
+                <div class="insta">
+                    <p>Instagram <br>@Alvarezluis29</p>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="item4">
+           <div class="experiencia">
+               <h3 id="expe">EXPERIENCIA LABORAL</h3>
+               <h4 class="h4">VIGILANTE</h4>
+               <h5 class="h5">TIERRA SANTA 2015 | 2016 </h5>
+               <P id="parrafo2">Ejercí el puesto de manera excelente y cumplí con los objetivos 
+                   <br>planteados por el jefe de la empresa.</P>
+               <h4 class="h4">BODEGUERO</h4>
+               <h5 class="h5">TIERRA SANTA 2018 | 2019 </h5>
+               <P id="parrafo3">Ejercí el puesto de manera excelente y cumplí con los objetivos 
+                <br>planteados por el jefe de la empresa.</P>
+               <h4 class="h4">ADMINISTRADOR</h4>
+               <h5 class="h5">PASO NIVEL 2019 | 2021 </h5>
+               <P id="parrafo4">Ejercí el puesto de manera excelente y cumplí con los objetivos 
+                <br>planteados por el jefe de la empresa ademas aprendi a liderar un equipo de trabajo.</P>
+
+           </div>
+       </div>
+       <div class="item5">
+           <div class="idiomas">
+                <h3 class="idio">IDIOMAS</h3>
+                <p class="i1">ENGLISH</p>
+                <P class="i2">POCO</P>
+                <p class="i3">SPANISH</p>
+                <P class="i4">NATIVO</P>
+                <p class="i5">ITALIAN</p>
+                <P class="i6">NADA</P>
+                <p class="i7">MANDARIN</p>
+                <P class="i8">NADA</P>
+           </div>
+       </div>
+       <div class="item6">
+           <div class="habilidades">
+               <h3 id="habilidad">HABILIDADES</h3>
+               <P class="ph0">DRAWING</P>
+               <P class="ph1">PHOTO</P>
+               <P class="ph2">COPYWRITE</P>
+               <P class="ph3">COMPUTERIZE</P>
+               <P class="ph4">DESIGN</P>
+               <div class="barra"></div>
+               <div class="barra1"></div>
+               <div class="barra2"></div>
+               <div class="barra3"></div>
+               <div class="barra4"></div>
+           </div>
+       </div>
+       <div class="item7">
+           <div class="academica">
+               <h3 class="infoaca">INFORMACION ACADEMICA</h3>
+               <h4 class="h4">TÈCNICO DE SISTEMAS</h4>
+               <h5 class="h5">FUNCOE 2012 | 2013 </h5>
+               <P id="parrafo5">Culmine el curso satisfactoriamente aprendiendo mucho sobre el mantenimiento de<br> software 
+                 y hardware de un computador.</P>
+               <h4 class="h4">DISEÑADOR GRÀFICO</h4>
+               <h5 class="h5">CETECOS 2021 | 2021 </h5>
+               <P id="parrafo6">Culmine el curso satisfactoriamente aprendiendo mucho sobre el diseño gráfico para publicidad y para edición de fotos.</P>
+               <h4 class="h4">INGENIERO DE SISTEMAS</h4>
+               <h5 class="h5">UNIVERSIDAD DEL MAGDALENA 2015 | PROCESO </h5>
+               <P id="parrafo7">Lo estoy cursando actualmente.</P>
+           </div>
+       </div>
+       <div id="borde"></div>
+       <div id="borde1"></div>
+       <div id="borde2"></div>
+   </div>
+</body>
+</html>
